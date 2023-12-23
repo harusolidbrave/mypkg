@@ -16,9 +16,11 @@ talkerノードから `countup` トピックにパブリッシュされたデー
 ## 実行結果
    listenerは、talkerから受け取ったカウントを表示します。
    ```bash
-    [INFO] [listener]: Listen: 1, Time: 2023-12-13 10:27:21
-    [INFO] [listener]: Listen: 2, Time: 2023-12-13 10:27:21
-    [INFO] [listener]: Listen: 3, Time: 2023-12-13 10:27:22
+    [listener-2] [INFO] [1703337477.964537567] [listener]: Listen: 0
+    [listener-2] [INFO] [1703337478.464602186] [listener]: Listen: 1
+    [listener-2] [INFO] [1703337478.964281611] [listener]: Listen: 2
+    [listener-2] [INFO] [1703337479.464469949] [listener]: Listen: 3
+    [listener-2] [INFO] [1703337479.964351436] [listener]: Listen: 4
    ```
 ## トピック
 
