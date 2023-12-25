@@ -3,11 +3,12 @@
 
 talkerノードから `countup` トピックにパブリッシュされたデータをlistenerノードがサブスクライブします。
 
-![test](https://github.com/harusolidbrave/ros2_mypkg/actions/workflows/test.yml/badge.svg)
+![test](https://github.com/harusolidbrave/mypkg/actions/workflows/test.yml/badge.svg)
 
 ## 実行方法
 
 下記のコマンドを実行し、`talk_listen.launch.py`を使用してトピックのパブリッシャ(talker)とサブスクライバ(listener)を同時に起動します。
+
 listenerは、talkerから受け取ったカウントを表示します。
    ```bash
    $ ros2 launch mypkg talk_listen.launch.py
