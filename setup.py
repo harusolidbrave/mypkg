@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2023 Harutaka Sato
+# SPDX-License-Identifier: BSD-3-Clause
+
 from setuptools import setup
 import os
 from glob import glob
